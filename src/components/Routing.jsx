@@ -10,7 +10,6 @@ import { CreateBook } from "../pages/CreateBook";
 import { Routes, Route } from "react-router-dom";
 import { ListaDeTareas } from "../pages/ListaDeTareas";
 import { SelectorDeEmojis } from "../pages/SelectorDeEmojis";
-import { Maps } from "./maps/Maps";
 
 export const Routing = () => {
   return (
@@ -25,7 +24,6 @@ export const Routing = () => {
       <Route path='view-book/:bookId' element={<VerLibro />} />
       <Route path='login' element={<Login />} />
       <Route path='register' element={<Register />} />
-      <Route path='maps' element={<Maps />} />
     </Routes>
   );
 };

@@ -3,10 +3,4 @@ body {
   background-color: #024059;
 
 }
-.leaflet-container {
-  justify-content: center;
-  display: flex;
-  margin-top: 10px;
-  width: 75%;
-  height: 75vh;
-}
+

@@ -86,12 +86,6 @@ export const Navbar = () => {
                 Buscador
               </MDBNavbarLink>
             </MDBNavbarItem>
-
-            <MDBNavbarItem>
-              <MDBNavbarLink tag={Link} active to='/maps'>
-                Mapas
-              </MDBNavbarLink>
-            </MDBNavbarItem>
           </MDBNavbarNav>
           <MDBContainer fluid className='d-flex justify-content-end'>
             <MDBBtn
